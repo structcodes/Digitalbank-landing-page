@@ -1,0 +1,281 @@
+
+/* responsive.css */
+.Meubtn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .intro-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    text-align: center;
+    padding-top: 15px;
+   
+  }
+
+  .intro-content {
+    padding: 0 20px 20px; 
+    margin-top: -130px;
+    position: relative;
+    z-index: 3;
+
+  }
+
+  .intro-content h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .intro-content p {
+    width: 100% ;
+    font-size: 18px;
+    margin: 15px auto;
+  }
+
+  .btn {
+    width: 50% ;
+    margin: 20px auto ;
+  }
+
+   .image-wrapper {
+    background-image: url('images/bg-intro-mobile.svg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -50px;
+  } 
+
+   .bg-image {
+    top: -300px;
+    left: -195px;
+    width: 768px;
+    height: 670px;
+  }
+
+  .foreground-image {
+    top: -193px;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    padding: 10px;
+   
+  } 
+
+  .features-container {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .features-header h3 {
+    font-size: 2.5rem;
+    margin: 0 auto 20px ;
+    text-align: center;
+  }
+
+  .features-header p {
+    width: 90% ;
+    margin: 0 auto ;
+    text-align: center;
+  }
+
+  .features-list {
+    flex-direction: column;
+    margin: 30px auto ;
+    gap: 2rem;
+  }
+
+  .feature-item {
+    margin: 0 auto 40px ;
+    text-align: center;
+    padding: 0 20px;
+    max-width: 400px;
+  }
+
+  .feature-item p {
+    width: 100% ;
+    margin: 0 auto;
+  }
+
+  .articles-container {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .articles-header h3 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .articles-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .article-card {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .article-card p {
+    width: 85% ;
+    margin: 15px auto ;
+  }
+}
+
+@media (max-width: 768px) {
+   /* .image-wrapper {
+    background-image: url('design/mobile-design.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -50px;
+  }
+
+  .bg-image {
+    top: -300px;
+    left: -195px;
+    width: 768px;
+    height: 670px;
+    
+  }
+
+  .foreground-image {
+    top: -193px;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    padding: 10px;
+   
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .header-container {
+    justify-content: space-between;
+    padding: 17px 20px;
+    
+  }
+
+  .navigation-menu > ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 99;
+
+  
+  }
+
+  .navigation-menu > ul.active {
+    display: flex;
+   
+  }
+
+  .Meubtn {
+    display: block;
+  }
+
+  .boraa {
+    display: none;
+  }
+
+  .intro-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    width: 60% ;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .footer-left,
+  .footer-right {
+    align-items: center ;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .link-column {
+    align-items: center;
+  }
+
+  .invite-btn {
+    width: 100% ;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-content h2 {
+    font-size: 2rem;
+  }
+
+  .intro-content p {
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 70% ;
+    padding: 12px;
+  }
+
+  .features-header h3,
+  .articles-header h3 {
+    font-size: 2rem;
+  }
+
+  .feature-item {
+    margin-bottom: 50px;
+  }
+
+  .article-card {
+    width: 100%;
+  }
+
+  .article-card p {
+    width: 90%;
+  }
+}
