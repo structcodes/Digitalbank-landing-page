@@ -40,32 +40,6 @@
     margin: 20px auto ;
   }
 
-   .image-wrapper {
-    background-image: url('images/bg-intro-mobile.svg');
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    overflow: hidden;
-    margin-top: -50px;
-  } 
-
-   .bg-image {
-    top: -300px;
-    left: -195px;
-    width: 768px;
-    height: 670px;
-  }
-
-  .foreground-image {
-    top: -193px;
-    left: 0;
-    height: 600px;
-    width: 100%;
-    padding: 10px;
-   
-  } 
-
   .features-container {
     height: auto;
     padding: 40px 20px;
@@ -132,22 +106,25 @@
 }
 
 @media (max-width: 768px) {
-   /* .image-wrapper {
-    background-image: url('design/mobile-design.jpg');
+  body {
+    overflow-x: hidden; 
+  }
+
+  .image-wrapper {
+    background-image: url('images/bg-intro-mobile.svg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     overflow: hidden;
     margin-top: -50px;
-  }
+  } 
 
-  .bg-image {
+   .bg-image {
     top: -300px;
     left: -195px;
     width: 768px;
     height: 670px;
-    
   }
 
   .foreground-image {
@@ -157,26 +134,7 @@
     width: 100%;
     padding: 10px;
    
-  } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  } 
 
   .header-container {
     justify-content: space-between;
