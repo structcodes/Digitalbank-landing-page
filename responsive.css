@@ -1,6 +1,14 @@
 
 /* responsive.css */
-.Meubtn {
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+
+
+ .Meubtn {
   display: none;
   background: none;
   border: none;
@@ -236,4 +244,5 @@
   .article-card p {
     width: 90%;
   }
-}
+} 
+
